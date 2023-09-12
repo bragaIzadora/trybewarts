@@ -1,8 +1,7 @@
 const botao = document.getElementById('botao');
-
 botao.addEventListener('click', () => {
-  const email = document.getElementById('email');
-  const senha = document.getElementById('senha');
+  const email = document.getElementById('email').value;
+  const senha = document.getElementById('senha').value;
   if (email === 'tryber@teste.com' && senha === '123456') {
     alert('Olá, Tryber!');
   } else {
@@ -11,7 +10,9 @@ botao.addEventListener('click', () => {
 });
 
 const checkbox = document.querySelector('#agreement');
+const botao1 = document.getElementById('submit-btn');
 function habilitar() {
-  checkbox.disabled = true;
+  botao1.disabled = false;
 }
+
 checkbox.addEventListener('click', habilitar);
