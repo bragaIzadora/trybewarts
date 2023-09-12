@@ -11,7 +11,7 @@ botao.addEventListener('click', () => {
 });
 
 const checkbox = document.querySelector('#agreement');
-function desabilitado() {
+function habilitar() {
   checkbox.disabled = true;
 }
-desabilitado();
+checkbox.addEventListener('click', habilitar);
