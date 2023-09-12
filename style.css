@@ -53,3 +53,9 @@
   display: flex;
   flex-direction: column;
 }
+
+.avaliacao {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
