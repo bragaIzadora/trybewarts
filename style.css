@@ -38,7 +38,18 @@
   height: 500px;
 }
 
+.divs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .familia {
+  display: flex;
+  flex-direction: column;
+}
+
+.aprender {
   display: flex;
   flex-direction: column;
 }
