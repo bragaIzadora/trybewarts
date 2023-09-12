@@ -59,3 +59,10 @@
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(39, 43, 51);
+  color: white;
+}

@@ -9,3 +9,9 @@ botao.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const checkbox = document.querySelector('#agreement');
+function desabilitado() {
+  checkbox.disabled = true;
+}
+desabilitado();
