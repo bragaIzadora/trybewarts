@@ -16,3 +16,22 @@ function habilitar() {
 }
 
 checkbox.addEventListener('click', habilitar);
+
+// requisito bonus
+
+const textarea = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
+// Define o valor inicial do contador
+const characterLimit = 500;
+counter.textContent = characterLimit;
+
+// Função para atualizar o contador
+function updateCounter() {
+  const currentLength = textarea.value.length;
+  const remainingCharacters = characterLimit - currentLength;
+  counter.textContent = remainingCharacters;
+}
+
+textarea.addEventListener('input', updateCounter);
+updateCounter();
