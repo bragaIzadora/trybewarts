@@ -12,7 +12,11 @@ botao.addEventListener('click', () => {
 const checkbox = document.querySelector('#agreement');
 const botao1 = document.getElementById('submit-btn');
 function habilitar() {
-  botao1.disabled = false;
+  if (checkbox.checked) {
+    botao1.disabled = false;
+  } else {
+    botao1.disabled = true;
+  }
 }
 
 checkbox.addEventListener('click', habilitar);
