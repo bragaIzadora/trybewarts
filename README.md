@@ -1,10 +1,5 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Projeto Trybewarts Wizarding School! 🧙
+
+Neste projeto, é criado uma página de feedback para a escola fictícia de magia Trybewarts, inspirada no universo de Harry Potter. A ideia é construir um formulário para que as pessoas estudantes enviem seus feedbacks, com a estrutura e validações necessárias, tudo com muito JavaScript e CSS!
+
+O objetivo principal é construir um formulário funcional, utilizando HTML, CSS e JavaScript, que permita aos usuários enviar um feedback sobre a Trybewarts Wizarding School. O formulário contará com validações e comportamentos dinâmicos.
